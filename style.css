@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+   background-image: url("WhatsApp\ Image\ 2024-03-04\ at\ 7.54.17\ PM.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.converter-container {
+    text-align: center;
+    background: rgba(235, 245, 244, 0.95);
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px 20px;
+    min-width: 320px;
+    width: 100px;
+    height: auto;
+    
+}
+#temperatureInput{
+    border-radius: 6px;
+    border-color: rgb(0, 217, 255);
+}
+#temperatureInput:hover {
+    background: transparent;
+  }
+
+#unitSelect{
+    border-radius: 6px;
+    border-color: rgb(0, 217, 255);
+}
+
+#unitSelect:hover {
+    background: transparent;
+  }
+
+#resultArea{
+    color: rgb(23, 23, 23);
+    font-family: monospace;
+    font-size: small;
+}
+label {
+    margin-right: 10px;
+    color: rgb(16, 16, 16);
+    font-family: cursive;
+    font-weight: bold;
+}
+
+input, select{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background: rgb(6, 93, 243);
+    margin-bottom: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 0.5rem;
+    transition: 0.4s;
+    font-weight: bold;
+   
+}
+
+button:hover {
+    background:rgba(31, 146, 254, 0.869);
+  }
+  
+#resultArea {
+    font-weight: bold;
+    margin-top: 20px;
+}
